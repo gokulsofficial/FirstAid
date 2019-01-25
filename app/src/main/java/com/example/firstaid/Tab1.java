@@ -52,7 +52,7 @@ public class Tab1 extends Fragment {
                 }
 
                 if (position == 1) {
-                    Intent myIntent = new Intent(view.getContext(), HeartAttack.class);
+                    Intent myIntent = new Intent(view.getContext(), Attack.class);
                     startActivityForResult(myIntent, 0);
                 }
 //
