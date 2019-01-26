@@ -6,4 +6,17 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_maps">Map</string>
+
+
+    <!--heart attack-->
+    <string name="heart_attack">STEPS : \n
+1. Show you are listening and calmly ask them how you can help.\n
+2. Be considerate of what is going on around them and what they need.\n
+
+MORE STEPS\n
+1. Show you are listening and calmly ask them how you can help.
+You must try to establish trust by showing them respect.\n
+
+2. Be considerate of what is going on around them and what they need.
+Remember that they may have difficulty letting you know what they need. For example, they may not speak English very well or be able to hear you.</string>
 </resources>

@@ -18,8 +18,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tips"></activity>
-        <activity android:name=".Home" />
+        <activity android:name=".Poison"></activity>
+        <activity android:name=".Bleeding" />
+        <activity android:name=".Unconsious" />
+        <activity android:name=".Sprain" />
+        <activity android:name=".HeatStroke" />
+        <activity android:name=".Wound" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Attack" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -35,9 +40,11 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
-        <activity android:name=".HeartAttack" />
-        <activity android:name=".MainActivity">
+            android:label="@string/title_activity_maps"
+            android:noHistory="true" />
+        <activity
+            android:name=".Tips"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
